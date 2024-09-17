@@ -6,8 +6,8 @@ from datetime import datetime
 import json
 TEAMS_URL = 'https://teams.microsoft.com/_#/calendarv2'
 
-sleepDelay = 2  # increase if you have a slow internet connection
-timeOutDelay = 30  # increase if you have a slow internet connection
+sleepDelay = 4  # increase if you have a slow internet connection
+timeOutDelay = 40  # increase if you have a slow internet connection
 
 curParticipants = 0
 minParticipants = 10
